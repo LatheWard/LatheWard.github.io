@@ -13,13 +13,19 @@ body {
     grid-template-rows: 40px 20px 40px;
 }
 
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     grid-column: 1/-1;
     font-size: large;
 }
 
 .content {
-    grid-column: 2/-1;
+    grid-column: 3/-1;
 }
 
 .footer {
