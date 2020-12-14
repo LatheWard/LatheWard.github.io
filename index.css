@@ -13,8 +13,8 @@ body {
   grid-template-columns: repeat (10, 1fr);
   grid-template-rows: 20px auto;
   grid-template-areas:
-  "h h h h h h h h h h"
-  "c c c c c c c c c c"
+    "h h h h h h h h h h"
+    "c c c c c c c c c c";
 }
 
 .container1 > div {
@@ -26,6 +26,7 @@ body {
 .header {
   grid-area: h;
   font-size: large;
+  color: #0e0f14
 }
 
 .content {
@@ -33,36 +34,38 @@ body {
 }
 
 .content > p {
-    font-size: medium
+  font-size: medium;
+  color: #0e0f14
 }
 
 .block-c {
-    height: 100%;
-    margin-top: 20px;
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 80px 80px 80px;
-    grid-template-areas:
+  height: 100%;
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80px 80px 80px;
+  grid-template-areas:
     "a b c"
     "a b c"
-    "a b c"
+    "a b c";
 }
 
 .item-a {
-    grid-area: a;
-    background-color: black;
-    color:white ;
+  grid-area: a;
+  background-color: black;
+  color: white;
 }
 
 .item-b {
-    grid-area: b;
-    background-color: black;
-    color:white;
+  grid-area: b;
+  background-color: black;
+  color: white;
 }
 
 .item-c {
-    grid-area: c;
-    background-color: black;
-    color:white;
+  grid-area: c;
+  background-color: black;
+  color: white;
 }
+
