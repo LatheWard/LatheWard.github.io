@@ -5,6 +5,8 @@ Inside, you'll see my portfolio-style website made with HTML/CSS. This is my 3rd
 ## Monday:
 I will be making the final decisions on how I want to lay out the elements of the page, writing the bio, and setting up the work and some styling for tomorrow
 
+My page will be designed similar to this image:
+![Microsoft painting of layout](./idea.png)
 ## Tuesday:
 On Tuesday, I will be writing the code for the project links. They will consist of 3 seperated elements with descriptions below them of what they are. Also I will be writing out my contact information at the bottom of the page, consisting of actual buttons or button-like elements that link to my social medias. I will also begin adding necessary elements for responsive design. By Thursday, the page will look just as good on mobile as it does on desktop.
 
