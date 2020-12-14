@@ -8,24 +8,28 @@ body {
 .container1 {
   height: 100%;
   display: grid;
-  grid-gap: 1px;
-  grid-template-columns: repeat (3, 1fr);
-  grid-template-rows: 40px 20px 40px;
+  grid-gap: 5px;
+  grid-template-columns: repeat (10, 1fr);
+  grid-template-rows: 20px auto 20px;
+  grid-template-areas:
+  "h h h h h h h h h h"
+  "c c c c c c c c c c"
+  "f f f f f f f f f f"
 }
 
-.container > div {
+.container1 > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .header {
-  grid-column: 1/-1;
+  grid-area: h;
   font-size: large;
 }
 
 .content {
-  grid-column: 3/-1;
+  grid-area: c;
 }
 
 .content > p {
@@ -33,7 +37,7 @@ body {
 }
 
 .footer {
-  grid-column: 1/-1;
+  grid-area: f;
 }
 
 .block {
