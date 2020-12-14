@@ -2,12 +2,13 @@ body {
     margin: 0px;
     padding: 10px;
     height: 100%;
+    background-color: #faeed8;
 }
 
 .container {
     height: 100%;
     display: grid;
-    grid-gap: 3px;
+    grid-gap: 1px;
     grid-template-columns: repeat (4, 1fr);
     grid-template-rows: 40px 40px 40px 40px;
 }
