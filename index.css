@@ -44,9 +44,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 80px 80px 80px;
     grid-template-areas:
-    "a a a"
-    "b b b"
-    "c c c"
+    "a b c"
+    "a b c"
+    "a b c"
 }
 
 .item-a {
@@ -61,7 +61,7 @@ body {
     color:white;
 }
 
-item-c {
+.item-c {
     grid-area: c;
     background-color: black;
     color:white;
