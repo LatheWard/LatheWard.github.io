@@ -1,33 +1,34 @@
 body {
-    margin: 0px;
-    padding: 10px;
-    height: 100%;
-    background-color: #faeed8;
+  margin: 0px;
+  padding: 10px;
+  height: 100%;
+  background-color: #faeed8;
 }
 
 .container {
-    height: 100%;
-    display: grid;
-    grid-gap: 1px;
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: 40px 20px 40px;
+  height: 100%;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: 40px 20px 40px;
 }
 
 .container > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
-    grid-column: 1/-1;
-    font-size: large;
+  grid-column: 1/-1;
+  font-size: large;
 }
 
 .content {
-    grid-column: 3/-1;
+  grid-column: 3/-1;
+  font-size: medium;
 }
 
 .footer {
-    grid-column: 1/-1;
+  grid-column: 1/-1;
 }
