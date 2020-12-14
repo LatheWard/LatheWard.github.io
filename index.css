@@ -5,6 +5,41 @@ body {
   background-color: #faeed8;
 }
 
+h1 {
+  font-family: Castoro;
+}
+
+h3 {
+  font-family: Bebas Nue;
+}
+
+p {
+  font-family: Ubuntu;
+}
+
+.intro {
+  height: 100%;
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat (8, 1fr);
+  grid-template-rows: 60px auto;
+  grid-template-areas:
+    "a a b b b b b b"
+    "a a b b b b b b";
+}
+
+.part-a {
+  grid-area: a;
+  background-color: #CB8589;
+}
+
+.part-b {
+  grid-area: b;
+  color: #0e0f14; 
+}
+
+
 .container1 {
   height: 100%;
   margin-top: 20px;
