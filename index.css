@@ -62,6 +62,7 @@ p {
 .container1 > div {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
 }
 
@@ -90,6 +91,7 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-template-rows: auto;
     justify-content: center;
+    text-align: center;
   }
 
 
