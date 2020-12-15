@@ -4,6 +4,10 @@ body {
   height: 100%;
   background-color: #faeed8;
 }
+img {
+  max-width: 100%;
+  max-height: auto;
+}
 
 h1 {
   font-family: Castoro;
@@ -83,12 +87,10 @@ p {
 .block-c {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    width:250px;
-    height:250px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    justify-content: center;
   }
-
-
 
 
 
