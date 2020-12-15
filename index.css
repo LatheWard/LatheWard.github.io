@@ -20,13 +20,14 @@ p {
 .intro {
   height: 100%;
   margin-top: 20px;
+  margin-bottom: 20px;
   display: grid;
   grid-gap: 1px;
   grid-template-columns: repeat (8, 1fr);
   grid-template-rows: 60px auto;
   grid-template-areas:
-    "a a b b b b b b"
-    "a a b b b b b b";
+    "b b b b b b b b"
+    "a a a a a a a a";
 }
 
 .part-a {
@@ -93,17 +94,19 @@ p {
 
 .item-b {
   grid-area: b;
-  background-color: black;
+  background-color:#0e0f14;
 }
 
 .item-c {
   grid-area: c;
-  background-color: black;
+  background-color:#0e0f14;
 
 }
 
 .item-a-i {
   grid-area: a;
+  color: #0e0f14;
+  text-align: center;
   background-image: url(BL.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,7 +115,7 @@ p {
 .item-b-i {
   grid-area: b;
   background-color: black;
-  color: white;
+  color: #0e0f14;
   background-image: url(U2S.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +124,7 @@ p {
 .item-c-i {
   grid-area: c;
   background-color: black;
-  color: white;
+  color:#0e0f14;
   background-image: url(pydoc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
