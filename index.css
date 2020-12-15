@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 10px;
   height: 100%;
-  background-color: #faeed8;
+  background-color: #F3D8A5;
 }
 img {
   max-width: 100%;
@@ -40,9 +40,9 @@ p {
 
 .part-b {
   grid-area: b;
-  color: #0e0f14; 
+  color: white; 
   padding:10px ;
-  background-color: #CB8589;
+  background-color:  #0e0f14;
 }
 
 
@@ -53,37 +53,16 @@ p {
   grid-gap: 1px;
   grid-template-columns: repeat (9, 1fr);
   grid-template-rows: 20px auto 40px;
-  grid-template-areas:
-    "a a a b b b c c c"
-    "a a a b b b c c c"
-    "a a a b b b c c c";
 }
 
 .container1 > div {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  text-align: left;
   align-items: center;
-}
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px;
+  }
 
-.sec-a {
-  grid-area: a;
-  font-size: large;
-  color: #0e0f14
-}
-
-.sec-b {
-  grid-area: b;
-}
-
-.sec-b > p {
-  font-size: medium;
-  color: #0e0f14;
-}
-
-.sec-c {
-  grid-area: c;
-}
 
 .block-c {
     display: grid;
