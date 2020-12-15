@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 10px;
   height: 100%;
-  background-color: #F3D8A5;
+  background-color: #f3d8a5;
 }
 img {
   max-width: 100%;
@@ -26,6 +26,16 @@ i {
   font-size: 85px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+a:hover {
+  color: red;
+}
+
 .intro {
   height: 100%;
   margin-top: 20px;
@@ -45,11 +55,10 @@ i {
 
 .part-b {
   grid-area: b;
-  color: white; 
-  padding:10px ;
-  background-color:  #0e0f14;
+  color: white;
+  padding: 10px;
+  background-color: #0e0f14;
 }
-
 
 .container {
   height: 100%;
@@ -65,19 +74,14 @@ i {
   text-align: left;
   color: white;
   align-items: center;
-  }
-
+}
 
 .block-c {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-template-rows: auto;
-    justify-content: center;
-    text-align: center;
-    color: white;
-  }
-
-
-
-
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: auto;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
