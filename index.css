@@ -81,58 +81,15 @@ p {
 }
 
 .block-c {
-  height: 100%;
-  margin-top: 20px;
-  display: grid;
-  grid-gap: 0px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80px 80px 80px;
-  grid-template-areas:
-    "a b c"
-    "a b c"
-    "a b c";
-}
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    width:250px;
+    height:250px;
+  }
 
-.item-a {
-  grid-area: a;
-  background-color: #0e0f14;
-}
 
-.item-b {
-  grid-area: b;
-  background-color:#0e0f14;
-}
 
-.item-c {
-  grid-area: c;
-  background-color:#0e0f14;
 
-}
 
-.item-a-i {
-  grid-area: a;
-  color: #0e0f14;
-  text-align: center;
-  background-image: url(BL.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.item-b-i {
-  grid-area: b;
-  background-color: black;
-  color: #0e0f14;
-  background-image: url(U2S.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.item-c-i {
-  grid-area: c;
-  background-color: black;
-  color:#0e0f14;
-  background-image: url(pydoc.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
