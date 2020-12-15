@@ -54,10 +54,11 @@ i {
 .container {
   height: 100%;
   margin-top: 20px;
+  vertical-align: middle;
   display: grid;
   margin-bottom: 20px;
-  grid-template-columns: 1fr;
-  grid-template-rows: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px;
 }
 
 .container > div {
