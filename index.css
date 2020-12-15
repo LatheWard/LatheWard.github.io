@@ -88,19 +88,26 @@ p {
 
 .item-a {
   grid-area: a;
-  background-color: black;
-  color: white;
+  background-image: url(BL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .item-b {
   grid-area: b;
   background-color: black;
   color: white;
+  background-image: url(BL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .item-c {
   grid-area: c;
   background-color: black;
   color: white;
+  background-image: url(BL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
