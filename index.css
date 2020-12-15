@@ -88,25 +88,41 @@ p {
 
 .item-a {
   grid-area: a;
-  background-image: url(BL.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #0e0f14;
 }
 
 .item-b {
   grid-area: b;
   background-color: black;
-  color: white;
-  background-image: url(BL.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .item-c {
   grid-area: c;
   background-color: black;
-  color: white;
+
+}
+
+.item-a-i {
+  grid-area: a;
   background-image: url(BL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-b-i {
+  grid-area: b;
+  background-color: black;
+  color: white;
+  background-image: url(U2S.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-c-i {
+  grid-area: c;
+  background-color: black;
+  color: white;
+  background-image: url(pydoc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
