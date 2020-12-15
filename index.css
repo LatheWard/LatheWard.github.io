@@ -21,9 +21,8 @@ p {
   height: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #CB8589;
+  font-size: medium;
   display: grid;
-  grid-gap: 2px;
   grid-template-columns: repeat (8, 1fr);
   grid-template-rows: 60px auto;
   grid-template-areas:
@@ -38,6 +37,8 @@ p {
 .part-b {
   grid-area: b;
   color: #0e0f14; 
+  padding:10px ;
+  background-color: #CB8589;
 }
 
 
