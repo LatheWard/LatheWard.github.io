@@ -21,6 +21,11 @@ p {
   font-family: Ubuntu;
 }
 
+i {
+  color: white;
+  font-size: 85px;
+}
+
 .intro {
   height: 100%;
   margin-top: 20px;
@@ -46,22 +51,19 @@ p {
 }
 
 
-.container1 {
+.container {
   height: 100%;
   margin-top: 20px;
   display: grid;
-  grid-gap: 1px;
-  grid-template-columns: repeat (9, 1fr);
-  grid-template-rows: 20px auto 40px;
-}
-
-.container1 > div {
-  text-align: left;
-  align-items: center;
-  display: grid;
   margin-bottom: 20px;
   grid-template-columns: 1fr;
-  grid-template-rows: 40px;
+  grid-template-rows: 60px;
+}
+
+.container > div {
+  text-align: left;
+  color: white;
+  align-items: center;
   }
 
 
