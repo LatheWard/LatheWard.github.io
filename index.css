@@ -10,7 +10,7 @@ h1 {
 }
 
 h3 {
-  font-family: Bebas Nue;
+  font-family: Bebas Neue;
 }
 
 p {
@@ -47,11 +47,12 @@ p {
   margin-top: 20px;
   display: grid;
   grid-gap: 1px;
-  grid-template-columns: repeat (10, 1fr);
-  grid-template-rows: 20px auto;
+  grid-template-columns: repeat (9, 1fr);
+  grid-template-rows: 20px auto 40px;
   grid-template-areas:
-    "h h h h h h h h h h"
-    "c c c c c c c c c c";
+    "a a a b b b c c c"
+    "a a a b b b c c c"
+    "a a a b b b c c c";
 }
 
 .container1 > div {
@@ -60,19 +61,23 @@ p {
   align-items: center;
 }
 
-.header {
-  grid-area: h;
+.sec-a {
+  grid-area: a;
   font-size: large;
   color: #0e0f14
 }
 
-.content {
-  grid-area: c;
+.sec-b {
+  grid-area: b;
 }
 
-.content > p {
+.sec-b > p {
   font-size: medium;
   color: #0e0f14
+}
+
+.sec-c {
+  grid-area: c;
 }
 
 .block-c {
