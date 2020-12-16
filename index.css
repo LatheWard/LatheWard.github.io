@@ -79,7 +79,6 @@ a:hover {
 
 /* For contact info in the middle of page */
 .center-item {
-
   grid-column-start: 2;
   grid-column-end: 3;
 }
