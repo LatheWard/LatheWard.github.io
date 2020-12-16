@@ -103,6 +103,8 @@ a:hover {
 
 #contact {
   font-size: large;
+  padding-bottom: 40px;
+  background-color: #0e0f14;
 }
 
 .block-c {
@@ -137,8 +139,5 @@ a:hover {
     display: None;
   }
 
-  #mobile-contact {
-    visibility: visible;
-  }
 }
 
