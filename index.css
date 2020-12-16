@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  padding: 10px;
+  padding: 30px;
   height: 100%;
   background-color: #f3d8a5;
 }
@@ -39,8 +39,9 @@ a:hover {
 .intro {
   height: 100%;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: medium;
+  grid-gap: 10px;
   display: grid;
   grid-template-columns: repeat (8, 1fr);
   grid-template-rows: 60px auto;
