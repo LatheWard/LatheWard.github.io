@@ -109,9 +109,11 @@ a:hover {
   display: grid;
   grid-gap: 1rem;
   margin-top: 40px;
+  word-wrap: break-word;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: auto;
   justify-content: center;
+  font-size: large;
   text-align: center;
   color: white;
 }
@@ -130,4 +132,13 @@ a:hover {
   #icons {
     display: none;
   }
+
+  #contact {
+    display: None;
+  }
+
+  #mobile-contact {
+    visibility: visible;
+  }
 }
+
