@@ -52,12 +52,22 @@ a:hover {
   @media only screen and (max-width:750px){
     .intro {
     text-align: center;
-    grid-template-columns: repeat (9, 1fr);
-    grid-template-rows: 40px auto;
-    grid-template-areas:
-    ". . . a a a . . ."
-    ". . b b b b b . .";
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+
   }
+
+  .part-a {
+    text-align: center;
+  }
+  
+  .part-b {
+    color: white;
+    padding: 10px;
+    background-color: #0e0f14;
+  }
+
+  
   }
 
 
@@ -106,12 +116,14 @@ a:hover {
 
 /* For desktop */
 @media only screen and (max-width:750px) {
-  #headshot {
-    width: 150%;
+
+  #introduction {
+    display: flex; 
+    flex-direction: column;
   }
 
   #bio {
-    width: 150%;
+    width: 100%;
   }
 
   #icons {
