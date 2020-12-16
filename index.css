@@ -47,29 +47,26 @@ a:hover {
   grid-template-rows: 60px auto;
   grid-template-areas:
     "a a a b b b b b"
-    "a a a b b b b b";}
+    "a a a b b b b b";
+}
 
-  @media only screen and (max-width:750px){
-    .intro {
+@media only screen and (max-width: 750px) {
+  .intro {
     text-align: center;
     grid-template-columns: 1fr;
     grid-template-rows: 100px;
-
   }
 
   .part-a {
     text-align: center;
   }
-  
+
   .part-b {
     color: white;
     padding: 10px;
     background-color: #0e0f14;
   }
-
-  
-  }
-
+}
 
 .part-a {
   grid-area: a;
@@ -115,14 +112,14 @@ a:hover {
 }
 
 /* For desktop */
-@media only screen and (max-width:750px) {
-
+@media only screen and (max-width: 750px) {
   #introduction {
-    display: flex; 
+    display: flex;
     flex-direction: column;
   }
 
-  #bio {
+
+  #headshot {
     width: 100%;
   }
 
