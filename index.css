@@ -81,7 +81,7 @@ a:hover {
 
 .container {
   height: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
   vertical-align: middle;
   display: grid;
   margin-bottom: 20px;
@@ -104,6 +104,7 @@ a:hover {
 .block-c {
   display: grid;
   grid-gap: 1rem;
+  margin-top: 40px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: auto;
   justify-content: center;
@@ -111,7 +112,7 @@ a:hover {
   color: white;
 }
 
-/* For desktop */
+/* For mobile */
 @media only screen and (max-width: 750px) {
   #introduction {
     display: flex;
@@ -126,4 +127,12 @@ a:hover {
   #icons {
     display: none;
   }
+
+  #contact {
+    display: none;
+  }
+
+  /* #myprojects {
+    fill
+  } */
 }
