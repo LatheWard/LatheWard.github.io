@@ -40,15 +40,26 @@ a:hover {
   height: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
-  font-size: medium;
+  font-size: large;
   grid-gap: 10px;
   display: grid;
   grid-template-columns: repeat (8, 1fr);
   grid-template-rows: 60px auto;
   grid-template-areas:
     "a a a b b b b b"
-    "a a a b b b b b";
-}
+    "a a a b b b b b";}
+
+  @media only screen and (max-width:750px){
+    .intro {
+    text-align: center;
+    grid-template-columns: repeat (9, 1fr);
+    grid-template-rows: 40px auto;
+    grid-template-areas:
+    ". . . a a a . . ."
+    ". . b b b b b . .";
+  }
+  }
+
 
 .part-a {
   grid-area: a;
