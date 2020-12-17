@@ -101,14 +101,6 @@ a:hover {
   grid-column-end: 3;
 }
 
-#quote {
-  color: transparent;
-  background-image:url(happy-dave.jpg);
-  background-clip: text;
-        } 
-
-
-
 .block-c {
   display: grid;
   grid-gap: 1rem;
@@ -121,6 +113,16 @@ a:hover {
   text-align: center;
   color: white;
 }
+
+#quote {
+  color: transparent;
+  background-image:url(happy-dave.jpg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 100px;
+  color: transparent
+ } 
 
 /* For mobile */
 @media only screen and (max-width: 750px) {
