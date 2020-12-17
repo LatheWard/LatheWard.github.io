@@ -68,7 +68,7 @@ a:hover {
   padding-right:34px;
   background-color: #0e0f14;
 }
-
+/* Big media query here for mobile  */
 @media only screen and (max-width: 750px) {
   .intro {
     text-align: center;
@@ -120,9 +120,12 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: auto;
   justify-content: center;
-  font-size: large;
   text-align: center;
   color: white;
+}
+
+.block-c > h3 {
+  font-size: xx-large;
 }
 
 #quote {
@@ -159,6 +162,9 @@ a:hover {
     text-align: center;
   }
 
+  .block-c {
+
+  }
 }
 /* For mobile */
 @media only screen and (max-width: 750px) {
