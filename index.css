@@ -54,6 +54,18 @@ a:hover {
     "a a a b b b b b";
 }
 
+.part-a {
+  grid-area: a;
+}
+
+.part-b {
+  grid-area: b;
+  color: white;
+  word-wrap: break-word;
+  padding: 34px;
+  background-color: #0e0f14;
+}
+
 @media only screen and (max-width: 750px) {
   .intro {
     text-align: center;
@@ -72,16 +84,6 @@ a:hover {
   }
 }
 
-.part-a {
-  grid-area: a;
-}
-
-.part-b {
-  grid-area: b;
-  color: white;
-  padding: 10px;
-  background-color: #0e0f14;
-}
 
 .container {
   height: 100%;
