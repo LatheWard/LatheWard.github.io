@@ -52,8 +52,17 @@ a:hover {
     "a a a b b b b b";
 }
 
+
 #headshot {
   align-items: center;
+}
+
+#bio > h1{
+  font-size: 50px
+}
+
+#bio > p {
+  font-size: 17px;
 }
 .part-a {
   grid-area: a;
@@ -61,7 +70,6 @@ a:hover {
 
 .part-b {
   grid-area: b;
-  font-size: large;
   color: white;
   word-wrap: break-word;
   padding-left: 34px;
@@ -137,7 +145,7 @@ a:hover {
   background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: 95px;
+  font-size: 85px;
   font-weight: bold;
   color: transparent;
   animation: mymove 15s infinite;
