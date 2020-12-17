@@ -111,7 +111,9 @@ a:hover {
 }
 
 .block-c {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 150px;
   grid-gap: 1rem;
   margin-top: 30px;
   margin-left: 15px;
@@ -124,8 +126,8 @@ a:hover {
   color: white;
 }
 
-.block-c > h3 {
-  font-size: xx-large;
+.project {
+  width: 20rem;
 }
 
 #quote {
@@ -151,6 +153,9 @@ a:hover {
   }
 }
 
+#endcards {
+  font-size: 30px;
+}
 /* for tablets */
 @media only screen and (max-width: 867px) {
   #introduction {
@@ -162,9 +167,6 @@ a:hover {
     text-align: center;
   }
 
-  .block-c {
-    
-  }
 }
 /* For mobile */
 @media only screen and (max-width: 750px) {
