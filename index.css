@@ -90,10 +90,10 @@ a:hover {
 
 .container {
   height: 100%;
-  margin-top: 40px;
+  padding: 20px;
+  margin: 30px;
   vertical-align: middle;
   display: grid;
-  margin-bottom: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 100px;
 }
@@ -163,7 +163,7 @@ a:hover {
   }
 
   .block-c {
-
+    
   }
 }
 /* For mobile */
