@@ -95,7 +95,7 @@ a:hover {
   align-items: center;
 }
 
-/* For contact info in the middle of page */
+/* For quote in the middle of page */
 .center-item {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -103,7 +103,7 @@ a:hover {
 
 #quote {
   color: transparent;
-  background: ;
+  background-image:url(happy-dave.jpg);
   background-clip: text;
         } 
 
