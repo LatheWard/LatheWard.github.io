@@ -44,7 +44,6 @@ a:hover {
   height: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
-  font-size: large;
   grid-gap: 10px;
   display: grid;
   grid-template-columns: repeat (8, 1fr);
@@ -60,9 +59,11 @@ a:hover {
 
 .part-b {
   grid-area: b;
+  font-size: large;
   color: white;
   word-wrap: break-word;
-  padding: 34px;
+  padding-left: 34px;
+  padding-right:34px;
   background-color: #0e0f14;
 }
 
