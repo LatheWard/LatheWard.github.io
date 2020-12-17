@@ -147,18 +147,14 @@ a:hover {
   -webkit-background-clip: text;
   font-size: 85px;
   font-weight: bold;
-  color: transparent;
-  animation: mymove 15s infinite;
+  animation: mymove 9s infinite;
   animation-timing-function: linear;
 }
 
 @keyframes mymove {
-  from {
-    background-position: top;
-  }
-  to {
-    background-position: bottom;
-  }
+  0% { color:transparent }
+  50% { color:white }
+  100% { color:white }
 }
 
 #endcards {
