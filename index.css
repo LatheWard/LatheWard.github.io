@@ -131,8 +131,8 @@ a:hover {
 }
 
 @keyframes mymove {
-  from {background-position: left;}
-  to {background-position: right}
+  from {background-position: top;}
+  to {background-position: bottom}
 }
 
 /* For mobile */
