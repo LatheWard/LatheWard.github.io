@@ -142,19 +142,19 @@ a:hover {
   color: transparent;
   background-image: url(use-this-dave.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: 80% 20%;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 85px;
   font-weight: bold;
-  animation: mymove 9s infinite;
+  animation: mymove 12s infinite;
   animation-timing-function: linear;
 }
 
-@keyframes mymove {
-  0% { color:transparent }
-  50% { color:white }
-  100% { color:white }
+@keyframes mymove { 
+  0% { color:transparent; background-position: top}
+  50% { color:white; background-position: bottom}
+  100% { color:white}
 }
 
 #endcards {
