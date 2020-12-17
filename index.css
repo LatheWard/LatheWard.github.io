@@ -120,17 +120,19 @@ a:hover {
   color: transparent;
   background-image: url(use-this-dave.jpg);
   background-size: cover;
-  background-position: top left;
+  background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 95px;
   font-weight: bold;
   color: transparent;
-  animation: mymove 12s infinite;
+  animation: mymove 15s infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes mymove {
-  50% {background-position: center;}
+  from {background-position: left;}
+  to {background-position: right}
 }
 
 /* For mobile */
@@ -150,5 +152,9 @@ a:hover {
 
   #contact {
     display: None;
+  }
+
+  #quote {
+    font-size:80px ;
   }
 }
