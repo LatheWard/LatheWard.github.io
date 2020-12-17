@@ -43,7 +43,6 @@ a:hover {
 .intro {
   height: 100%;
   margin-top: 20px;
-  margin-bottom: 40px;
   grid-gap: 10px;
   display: grid;
   grid-template-columns: repeat (8, 1fr);
@@ -53,6 +52,9 @@ a:hover {
     "a a a b b b b b";
 }
 
+#headshot {
+  align-items: center;
+}
 .part-a {
   grid-area: a;
 }
@@ -146,15 +148,29 @@ a:hover {
   }
 }
 
+/* for tablets */
+@media only screen and (max-width: 867px) {
+  #introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .part-b {
+    text-align: center;
+  }
+
+}
 /* For mobile */
 @media only screen and (max-width: 750px) {
   #introduction {
     display: flex;
     flex-direction: column;
+    
   }
 
   #headshot {
     width: 100%;
+
   }
 
   #icons {
