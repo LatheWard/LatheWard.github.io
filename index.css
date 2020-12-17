@@ -17,6 +17,10 @@ h3 {
   font-family: Bebas Neue;
 }
 
+h2 {
+  font-family: Bebas Neue;
+}
+
 p {
   font-family: Ubuntu;
 }
@@ -131,8 +135,12 @@ a:hover {
 }
 
 @keyframes mymove {
-  from {background-position: top;}
-  to {background-position: bottom}
+  from {
+    background-position: top;
+  }
+  to {
+    background-position: bottom;
+  }
 }
 
 /* For mobile */
@@ -155,6 +163,6 @@ a:hover {
   }
 
   #quote {
-    font-size:80px ;
+    font-size: 80px;
   }
 }
