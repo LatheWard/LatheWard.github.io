@@ -104,7 +104,9 @@ a:hover {
 .block-c {
   display: grid;
   grid-gap: 1rem;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
   word-wrap: break-word;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: auto;
@@ -116,15 +118,20 @@ a:hover {
 
 #quote {
   color: transparent;
-  background-image:url(use-this-dave.jpg);
+  background-image: url(use-this-dave.jpg);
   background-size: cover;
-  background-position: center bottom;
+  background-position: top left;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 95px;
   font-weight: bold;
-  color: transparent
- } 
+  color: transparent;
+  animation: mymove 12s infinite;
+}
+
+@keyframes mymove {
+  50% {background-position: center;}
+}
 
 /* For mobile */
 @media only screen and (max-width: 750px) {
@@ -144,6 +151,4 @@ a:hover {
   #contact {
     display: None;
   }
-
 }
-
