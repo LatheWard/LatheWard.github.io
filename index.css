@@ -101,11 +101,12 @@ a:hover {
   grid-column-end: 3;
 }
 
-#contact {
-  font-size: x-large;
-  padding-bottom: 40px;
-  background-color: #0e0f14;
-}
+#quote {
+  color: transparent;
+  background: ;
+  background-clip: text;
+        } 
+
 
 
 .block-c {
