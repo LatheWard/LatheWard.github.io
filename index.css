@@ -154,7 +154,7 @@ a:hover {
 }
 
 #endcards {
-  font-size: 30px;
+  font-size: 25px;
 }
 /* for tablets */
 @media only screen and (max-width: 867px) {
