@@ -145,7 +145,7 @@ a:hover {
   color: transparent;
   background-image: url(use-this-dave.jpg);
   background-size: cover;
-  background-position: 80% 20%;
+  background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 85px;
@@ -174,7 +174,9 @@ a:hover {
   .part-b {
     text-align: center;
   }
-
+  #quote {
+    animation: none
+  }
 }
 /* For mobile */
 @media only screen and (max-width: 750px) {
@@ -195,5 +197,6 @@ a:hover {
 
   #quote {
     font-size: 80px;
+    animation: none;
   }
 }
