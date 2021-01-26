@@ -49,7 +49,7 @@ a:hover {
   grid-template-rows: 60px auto;
   grid-template-areas:
     "a a a b b b b b"
-    "a a a c c c c c";
+    "a a a b b b b b";
 }
 
 
@@ -76,6 +76,7 @@ a:hover {
   padding-right:34px;
   background-color: #0e0f14;
 }
+
 /* Big media query here for mobile  */
 @media only screen and (max-width: 750px) {
   .intro {
