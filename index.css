@@ -50,6 +50,12 @@ a:hover {
 
 }
 
+.langs {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
 
 #headshot {
   align-items: center;
