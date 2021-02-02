@@ -53,14 +53,13 @@ a:hover {
 .langs {
   display: flex;
   justify-content: space-evenly;
-  padding: 3rem;
+  padding: 2.5rem;
   color: white;
   background-color: #0e0f14;
+  font-size: 20px ;
 }
 
-.langs > p {
-  font-size: ;
-}
+
 
 
 #headshot {
