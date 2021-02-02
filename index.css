@@ -54,6 +54,8 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   margin: 2rem;
+  color: white;
+  background-color: #0e0f14;
 }
 
 
