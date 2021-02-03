@@ -178,7 +178,9 @@ a:hover {
     grid-template-columns: 1fr;
     grid-template-rows: 100px;
   }
-
+  .langs {
+    grid-template-columns: auto;
+  }
   .part-a {
     text-align: center;
   }
