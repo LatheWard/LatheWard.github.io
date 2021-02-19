@@ -179,7 +179,7 @@ a:hover {
     grid-template-rows: 100px;
   }
   .langs {
-    grid-template-columns: auto;
+    flex-direction: column;
   }
   .part-a {
     text-align: center;
