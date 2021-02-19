@@ -54,6 +54,7 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   padding: 2.5rem;
+  margin-top: 1.5rem;
   color: white;
   background-color: #0e0f14;
   font-size: 20px ;
