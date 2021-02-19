@@ -133,6 +133,7 @@ a:hover {
 }
 .project {
   width: 20rem;
+  border-radius: .40rem;
 }
 
 
