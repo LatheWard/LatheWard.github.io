@@ -180,6 +180,7 @@ a:hover {
   }
   .langs {
     flex-direction: column;
+    text-align: center;
   }
   .part-a {
     text-align: center;
