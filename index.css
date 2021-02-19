@@ -120,6 +120,7 @@ a:hover {
   margin-top: 30px;
   margin-left: 15px;
   margin-right: 15px;
+  border-radius: .40rem;
   word-wrap: break-word;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: auto;
