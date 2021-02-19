@@ -79,6 +79,7 @@ a:hover {
 }
 .part-a {
   grid-area: a;
+  border-radius: .40rem;
 }
 
 .part-b {
