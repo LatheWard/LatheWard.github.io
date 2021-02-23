@@ -133,10 +133,11 @@ a:hover {
   grid-area: item1
 }
 .project {
-  width: 20rem;
+  width: 10rem;
   border-radius: .40rem;
   /* background-image: url(use-this-dave.jpg); */
   font-size: 20px;
+  background-color: #0e0f14;
 }
 
 
