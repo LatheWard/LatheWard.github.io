@@ -43,6 +43,13 @@ a:hover {
   color: red;
 }
 
+#MP{
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+
+}
+
 .intro {
   height: 100%;
   background-color: #0e0f14;
@@ -120,7 +127,7 @@ a:hover {
 
 .block-c {
   display: flex;
-  flex-wrap: inherit;
+  flex-wrap: wrap;
   flex-basis: 150px;
   grid-gap: 1rem;
   margin-top: 30px;
