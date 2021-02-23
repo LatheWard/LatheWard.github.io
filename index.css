@@ -116,7 +116,7 @@ a:hover {
 
 .block-c {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: inherit;
   flex-basis: 150px;
   grid-gap: 1rem;
   margin-top: 30px;
@@ -124,7 +124,7 @@ a:hover {
   margin-right: 15px;
   border-radius: .40rem;
   word-wrap: break-word;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-template-rows: auto;
   justify-content: center;
   text-align: center;
@@ -135,6 +135,7 @@ a:hover {
 .project {
   width: 10rem;
   border-radius: .40rem;
+  height: auto;
   /* background-image: url(use-this-dave.jpg); */
   font-size: 20px;
   background-color: white;
