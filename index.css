@@ -129,7 +129,6 @@ a:hover {
   grid-template-rows: auto;
   justify-content: center;
   text-align: center;
-  color: white;
 }
 #item1 {
   grid-area: item1
@@ -137,12 +136,7 @@ a:hover {
 .project {
   width: 20rem;
   border-radius: .40rem;
-  color: black;
   /* background-image: url(use-this-dave.jpg); */
-  background-size: cover;
-  background-position: center;
-  background-clip: text;
-  -webkit-background-clip: text;
   font-size: 20px;
 }
 
