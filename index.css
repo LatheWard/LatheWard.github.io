@@ -64,16 +64,12 @@ a:hover {
 .langs {
   display: flex;
   justify-content: space-evenly;
-  padding: 2.5rem;
   margin-top: 1.5rem;
   border-radius: .40rem;
   color: white;
   background-color: #0e0f14;
-  font-size: 20px ;
+  font-size: 20px;
 }
-
-
-
 
 #headshot {
   align-items: center;
