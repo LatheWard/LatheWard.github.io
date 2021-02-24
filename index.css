@@ -73,6 +73,7 @@ a:hover {
 
 #headshot {
   align-items: center;
+  display: flex
 }
 
 
