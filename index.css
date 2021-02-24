@@ -43,6 +43,9 @@ a:hover {
   color: red;
 }
 
+
+
+/* an h2 that says 'my projects' */
 #MP{
   display: flex;
   font-size: 40px;
