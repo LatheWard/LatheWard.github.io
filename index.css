@@ -140,9 +140,7 @@ a:hover {
   justify-content: center;
   text-align: center;
 }
-#item1 {
-  grid-area: item1
-}
+
 .project {
   width: 10rem;
   border-radius: .40rem;
