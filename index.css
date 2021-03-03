@@ -172,7 +172,9 @@ a:hover {
 }
 
 #endcards {
-  font-size: 25px;
+  font-size: 1rem;
+  display: flex;
+
 }
 /* ----------------------------------- */
 /* for tablets */
