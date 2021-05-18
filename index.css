@@ -179,6 +179,14 @@ a:hover {
 transform: scale(1.1); 
 }
 
+.slowgrow { 
+  transition: all .5s ease-in-out; 
+  }
+  
+.slowgrow:hover { 
+transform: scale(1.06); 
+}
+
 #endcards {
   font-size: 1rem;
   display: flex;
