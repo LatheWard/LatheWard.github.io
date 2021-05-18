@@ -5,8 +5,9 @@ body {
   background-color: #f3d8a5;
 }
 img {
-  max-width: 100%;
+  max-width: 70%;
   max-height: auto;
+  object-fit: cover;
 }
 
 h1 {
@@ -75,9 +76,9 @@ a:hover {
   font-size: 20px;
 }
 
-#headshot {
-  align-items: center;
-  display: flex
+.headshot {
+  justify-content: center;
+  display: flex;
 }
 
 
