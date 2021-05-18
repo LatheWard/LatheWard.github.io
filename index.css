@@ -34,7 +34,6 @@ i {
 }
 
 a {
-  color: black;
   text-decoration: none;
   font-size: large;
 }
@@ -169,6 +168,14 @@ a:hover {
   0% { color:transparent; background-position: top}
   50% { color:white; background-position: bottom}
   100% { color:white}
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+.grow:hover { 
+transform: scale(1.1); 
 }
 
 #endcards {
