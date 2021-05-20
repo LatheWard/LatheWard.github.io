@@ -37,7 +37,7 @@ i {
 
 a {
   text-decoration: none;
-  font-size: large;
+
   color: inherit;
 }
 
@@ -56,7 +56,6 @@ a:focus{
   display: flex;
   font-size: 40px;
   justify-content: center;
-
 }
 
 #mytitle {
@@ -97,9 +96,10 @@ a:focus{
 }
 
 .headshot {
-  justify-content: center;
+  margin-right: 0px;
+  padding-right: 0px;
   display: flex;
-  
+  align-items: center;
 }
 
 
@@ -192,7 +192,7 @@ a:focus{
   -webkit-background-clip: text;
   font-size: 85px;
   font-weight: bold;
-  animation: mymove 12s infinite;
+  animation: mymove 6s infinite;
   animation-timing-function: linear;
 }
 
