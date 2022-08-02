@@ -100,13 +100,9 @@ a:focus{
 }
 
 .headshot {
-  margin-right: 0px;
-  padding-right: 0px;
-  display: flex;
-  align-items: center;
+  display: flex; 
+  align-self: center;
 }
-
-
 
 
 #bio > h1{
