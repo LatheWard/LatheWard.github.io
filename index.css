@@ -41,9 +41,9 @@ a {
   color: inherit;
 }
 
-a:hover {
+/* a:hover {
   color: red;
-}
+} */
 
 a:focus{
   color: inherit;
