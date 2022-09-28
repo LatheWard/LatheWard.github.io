@@ -100,8 +100,8 @@ a:focus{
 }
 
 .headshot {
-  display: flex; 
-  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
