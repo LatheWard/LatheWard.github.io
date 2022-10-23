@@ -93,11 +93,11 @@ a:focus{
   font-size: 20px;
 }
 
-.langs:hover{
+ /* .langs:hover{
   animation: pulse 2.25s ease-in-out;
   animation-timing-function: linear;
   color: inherit;
-}
+}  */
 
 .headshot {
   display: flex;
