@@ -62,6 +62,10 @@ a:focus{
   color:aqua
 }
 
+#Upwork:hover {
+  color:greenyellow
+}
+
 #mytitle {
   font-size: 29px !important;
 }
