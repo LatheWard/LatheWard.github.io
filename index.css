@@ -11,12 +11,15 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
+
+
 img {
   width: 90%;
-  object-fit: scale-down;
+  height: 90%;
+  object-fit: contain;
   border-radius: 0.4rem;
 }
 
@@ -57,10 +60,11 @@ a:focus {
   display: flex;
   font-size: 40px;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin: 10px 5px 5px 5px;
 }
-
+#swipe4more {
+  display: none;
+}
 #bcca:hover {
   color: aqua;
 }
@@ -71,14 +75,6 @@ a:focus {
 
 #mytitle {
   font-size: 29px !important;
-}
-
-.sk {
-  display: flex;
-  font-size: 30px;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 #question {
@@ -109,22 +105,18 @@ a:focus {
 
 .lang-container {
   display: table;
+  width: 100%;
 } 
-.lang-set {
-  display: flex;
-  margin-top: 1.5rem;
-  justify-content: space-between;
-} 
+
 .langs {
   display: flex;
   justify-content: space-evenly;
-  width: 85%;
+  width: 100%;
   border-radius: 0.4rem;
   color: white;
   background-color: #0e0f14;
   font-size: 20px;
 }
-
 .lang {
   width: 15%;
   display: flex;
@@ -156,33 +148,48 @@ a:focus {
   grid-column-end: 3;
 }
 
-.block-c {
+#daily-drivers {
   display: flex;
   flex-basis: 150px;
   grid-gap: 1rem;
   padding: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
+  width: 1050px;
+  height: 250px;
+  margin: 0 auto;
+  border: 1px solid #0e0f14;
   border-radius: 0.4rem;
   justify-content: center;
   text-align: center;
+} 
+
+#ergodox-h3 {
+  font-size: 30px;
 }
 
-#daily-drivers {
-  border: 1px solid #0e0f14 !important;
-  padding: 20px;
+#partners {
+  display: flex;
+  justify-content: center;
 }
+
+#myprojects {
+  display: flex;
+  overflow-x: auto;
+}
+
 
 .project {
-  width: 10rem;
   border-radius: 0.4rem;
   height: auto;
   font-size: 20px;
+  margin: 1rem;
+  padding: 1rem;
   background-color: white;
 }
 
 .xp {
   width: 20rem;
+  padding: 10px;
+  margin: 10px;
   border-radius: 0.4rem;
   height: auto;
   font-size: 25px;
@@ -191,15 +198,12 @@ a:focus {
 
 #quote {
   color: transparent;
-  background-image: url(use-this-dave.jpg);
-  background-size: cover;
+  background-image: url(bellamy-to-the-future.gif);
   background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 85px;
   font-weight: bold;
-  animation: mymove 6s infinite;
-  animation-timing-function: linear;
 }
 
 @keyframes mymove {
@@ -258,30 +262,172 @@ a:focus {
 }
 /* ----------------------------------- */
 /* for tablets */
-@media only screen and (max-width: 867px) {
-  #introduction {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .part-b {
-    text-align: center;
-  }
-  #quote {
-    animation: none;
-  }
-}
-/* For mobile */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
   body {
     padding: 0px 0px 0px 0px;
     margin: 0%;
   }
-  .page {
+  .mobile-page{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: flex;
+    height: auto;
     flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
   }
-  #headshot-img {
-    max-width: 100%;
+  #swipe4more {
+    display: none;
+  }
+  #headshot, #headshot-img {
+   display: none;
+  }
+  .intro {
+    display: table;
+    text-align: center;
+    height: 100%;
+    font-size: 90%;
+    padding: 0%;
+    margin: 1rem;
+  }
+  #page2 > h1 {
+    margin-top: 0%;
+  }
+  .MP {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  #daily-drivers {
+    border: 1px solid #0e0f14 !important;
+    padding: 20px;
+    width: 700px;
+    display: flex;
+    margin-left: 20px;
+    flex-basis: 150px;
+    grid-gap: 1rem;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 0.4rem;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #ergodox-h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .lang-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    padding: 1rem;
+    padding-top: 0%;
+  }
+
+  .langs {
+    overflow-x: auto;
+    width: 95%;
+    white-space: nowrap;
+    margin-top: 0%;
+  } 
+  .lang {
+    width: auto;
+    padding: 0px 0px 0px 0px;
+    white-space: nowrap;
+    margin-top: 0%;
+  }
+  
+  #partners {
+    display: flow-root;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    margin-left: 1.5rem;
+    width: 750px;
+    height: 215px;
+  }
+
+  .xp {
+    scroll-snap-align: start;
+    width: 700px;
+    height: 150px;
+  }
+  .dd {
+    scroll-snap-align: start;
+    width: 300px;
+    height: 150px;
+  }
+
+  .project {
+    width: 175px;
+    height: 300px;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  #faq {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+  }
+
+  .intro {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  #icons {
+    display: none;
+  }
+
+  #quote {
+    font-size: 70px;
+    height: auto; 
+    animation: none;
+    justify-content: center;
+  }
+
+  #endcards {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+
+  #endcards > h2{
+    font-size: 30px;  
+  }
+
+}
+
+/* For mobile */
+@media only screen and (max-width: 770px) {
+  body {
+    padding: 0px 0px 0px 0px;
+    margin: 0%;
+  }
+  .mobile-page{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+  }
+  #swipe4more {
+    display: flex;
+    justify-content: center;
+  }
+
+  #headshot {
+   width: 300px;
+   display: none;
   }
   .intro {
     display: table;
@@ -289,6 +435,7 @@ a:focus {
     height: 100%;
     font-size: 90%;
     padding: 1rem;
+    margin: 1rem;
   }
   .MP {
     display: flex;
@@ -299,18 +446,14 @@ a:focus {
     display: flex;
     flex-direction: column;
     margin-top: 0%;
+    margin-bottom: 10%;
     padding: 1rem;
     padding-top: 0%;
   }
-  .lang-set {
-    display: flex;
-    flex-direction: column;
-    overflow-x: auto;
-    white-space: nowrap;
-    margin-top: 0%;
-  }
+
   .langs {
     overflow-x: auto;
+    width: 90%;
     white-space: nowrap;
     margin-top: 0%;
   } 
@@ -319,34 +462,77 @@ a:focus {
     padding: 0px 5px 0px 5px;
     white-space: nowrap;
     margin-top: 0%;
-  } 
-  .block-c {
-  overflow-x: auto;
-  white-space: nowrap;
+  }
+  
+  #partners {
+    display: flow-root;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    width: 370px;
+    height: 250px;
+    overflow-y: scroll;
+  }
+  .xp {
+    scroll-snap-align: start;
+    padding: 3px;
+    width: 330px;
+  }
+  #daily-drivers {
+    border: 1px solid #0e0f14 !important;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    margin-left: 20px;
+    flex-basis: 150px;
+    grid-gap: 1rem;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 0.4rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #ergodox-h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .project {
+    width: 130px;
+    height: 400px;
   }
 
   #faq {
     display: flex;
     flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
   }
 
   .intro {
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    margin-bottom: 2rem;
   }
   #icons {
     display: none;
   }
 
   #quote {
-    font-size: 80px;
+    font-size: 90px;
+    height: auto; 
     animation: none;
   }
 
   #endcards {
-    scale: 70%;
     display: flex;
+    width: 350px;
+    scale: 90%;
     flex-direction: column;
-    padding-top: 10px;
+    margin-bottom: 2rem;
   }
+
 }

@@ -16,7 +16,8 @@
 </head>
 
 <body>
-  <div class="page">
+  <div id="page1" class="page">
+  <div class="mobile-page">
     <div class="intro">
       <div id="bio">
         <h1>Hey, my name's Lathe.</h1>
@@ -53,8 +54,10 @@
         </a>
       </div>
     </div>
+    <div id="swipe4more"><h2>Swipe down for more</h2></div>
+    </div>
 
-    <div id="faq">
+    <div id="page2" class="mobile-page"> 
       <h1>Some common questions about me:</h1>
       <div id="bcca-logo">
         <img src="BCCA_LOGO-NoBG.webp" style="filter: sepia()" />
@@ -81,22 +84,22 @@
     </div>
   </div>
 
-  <div class="page">
-    <h2 class="MP">Daily drivers</h2>
-    <div class="block-c" id="daily-drivers">
-      <div class="xp grow" style="background-color: transparent">
-        <h3>Ergodox EZ</h3>
+  <div id="page3"class="page">
+  <div class="mobile-page">
+    <h2 class="MP" style="margin-top: 2%;">Daily drivers:</h2>
+    <div id="daily-drivers">
+      <div class="dd grow" style="background-color: transparent">
+        <h3 id="ergodox-h3">Ergodox EZ</h3>
         <img src="light-mode-ergodox.png" />
       </div>
-      <div class="xp grow" style="background-color: transparent">
+      <div class="dd grow" style="background-color: transparent">
         <img src="endeavouros-logo-2.png" />
       </div>
     </div>
 
-    <h2 class="MP" style="font-size: 40px">Skills</h2>
+    <h2 class="MP" style="font-size: 40px">Skills:</h2>
     <div class="lang-container">
-      <div class="lang-set">
-        <h2 class="sk">Languages</h2>
+        <h2 class="sk" style="margin-top: 3px;">Languages</h2>
         <div class="langs">
           <div class="grow lang">
             <a href="https://www.python.org/"><h2>Python</h2></a>
@@ -112,7 +115,7 @@
             >
           </div>
           <div class="grow lang">
-            <a href="https://www.microfocus.com/en-us/what-is/cobol"
+            <a href="https://en.wikipedia.org/wiki/COBOL"
               ><h2>COBOL</h2></a
             >
           </div>
@@ -120,9 +123,7 @@
             <a href="https://en.wikipedia.org/wiki/IBM_RPG"><h2>IBM RPG</h2></a>
           </div>
         </div>
-      </div>
 
-      <div class="lang-set">
         <h2 class="sk">Frameworks & Libraries</h2>
         <div class="langs">
           <div class="grow lang">
@@ -141,9 +142,7 @@
             <a href="https://getbootstrap.com/"><h2>Bootstrap</h2></a>
           </div>
         </div>
-      </div>
 
-      <div class="lang-set">
         <h2 class="sk">Tools & Platforms</h2>
         <div class="langs">
           <div class="grow lang">
@@ -153,24 +152,22 @@
             <a href="https://www.postgresql.org/"><h2>PostgreSQL</h2></a>
           </div>
           <div class="grow lang">
-            <a href="/"><h2>Vim</h2></a>
+            <a href="https://www.vim.org/"><h2>Vim</h2></a>
           </div>
           <div class="grow lang">
-            <a href="/"><h2>Unix</h2></a>
+            <a href="https://en.wikipedia.org/wiki/Unix"><h2>Unix</h2></a>
           </div>
           <div class="grow lang">
-            <a href="/"><h2>NPM</h2></a>
+            <a href="https://www.npmjs.com/"><h2>NPM</h2></a>
           </div>
         </div>
-      </div>
-      <div class="lang-set">
         <h2 class="sk">In Progress</h2>
         <div class="langs">
           <div class="grow lang">
-            <a href=""><h2>OS Development</h2></a>
+            <a href="https://en.wikipedia.org/wiki/Operating_system"><h2>OS Development</h2></a>
           </div>
           <div class="grow lang">
-            <a href=""><h2>Rust</h2></a>
+            <a href="https://www.rust-lang.org/"><h2>Rust</h2></a>
           </div>
           <div class="grow lang">
             <a
@@ -179,15 +176,16 @@
             >
           </div>
         </div>
-      </div>
     </div>
   </div>
+  </div>
   <div class="page">
-    <h2 class="MP">People I've worked with</h2>
-    <div class="block-c">
+  <div id="page4"class="mobile-page">
+    <h2 class="MP">People I've worked with:</h2>
+    <div id="partners">
       <div class="xp grow">
         <h3>Circadence Corporation</h3>
-        <h4>(Software Developer I)</h4>
+        <h4>(Current, Software Developer I)</h4>
       </div>
       <div class="xp grow">
         <h3>Three Rivers Planning and Development District</h3>
@@ -207,9 +205,15 @@
       </div>
     </div>
     <a href="https://github.com/LatheWard"
-      ><h2 class="MP">A few of my projects</h2></a
+      ><h2 class="MP">A few of my projects:</h2></a
     >
-    <div id="myprojects" class="block-c">
+    <div id="myprojects" >
+      <div class="project grow">
+        <a href="https://github.com/LatheWard/Weekly">
+          <h3>This website</h3>
+          <h4>latheward.github.io is one of my first projects!</h4></a
+        >
+      </div>
       <div class="project grow">
         <a href="https://github.com/LatheWard/Weekly">
           <h3>Keepr (Python)</h3>
@@ -252,31 +256,29 @@
         >
       </div>
     </div>
-    <div style="background-color: #0e0f14" class="block-c">
+    </div>
+    <div id="end-page" class="mobile-page">
+    <div id="quote" >
       <div>
-        <h3 id="quote">If we can dream it, we can build it.</h3>
+        <h3 style="margin: 0%;">If we can dream it, we can build it.</h3>
       </div>
     </div>
-    <div class="block-c" id="endcards">
+    <div id="endcards">
       <h2 class="MP">
         <a href="mailto:lathelward@gmail.com" id="contact">
           EMAIL: lathelward@gmail.com
         </a>
-        |
       </h2>
       <h2 class="MP">
         <a href="https://github.com/LatheWard" id="contact">
           Github: github.com/latheward
         </a>
-        |
       </h2>
       <h2 class="MP">
-        <a href="https://www.linkedin.com/in/lathe-ward-9447431bb" id="contact">
-          Linkedin: LatheWard
-        </a>
-        |
+        <a href="https://www.linkedin.com/in/lathe-ward-9447431bb" id="contact">Linkedin: LatheWard</a>
       </h2>
     </div>
+  </div>
   </div>
   <script src="index.js"></script>
 </body>

@@ -1,5 +1,7 @@
 // Snap pages into view if 60% is in viewport
 const pages = document.querySelectorAll(".page");
+const mobilePages = document.querySelectorAll(".mobile-page");
+const mediaQuery = window.matchMedia('(max-width: 770px)')
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -12,4 +14,9 @@ const observer = new IntersectionObserver(
     threshold: [0.6],
   }
 );
-pages.forEach((page) => observer.observe(page));
+
+if (mediaQuery.matches) {
+  mobilePages.forEach((page) => observer.observe(page));
+} else {
+  pages.forEach((page) => observer.observe(page));
+}
