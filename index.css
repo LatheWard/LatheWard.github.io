@@ -1,78 +1,62 @@
-h1, h2, h3, h4, p {
-    color: white;
+h1,
+h2,
+h3,
+h4,
+p {
+  color: white;
 }
 
 h1 {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 200;
-    font-size: 150px;
-    margin-bottom: 0;
+  font-family: "VT323";
+  font-weight: 200;
+  font-size: 150px;
+  margin-bottom: 0;
 }
 
 h2 {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    margin-top: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 0;
 }
 
 h3 {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    margin-top: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 0;
 }
 
 h4 {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 400;
-    font-size: 80px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
 }
 
 p {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 body {
-    padding: 1rem;
-}
-
-ul {
-    list-style-type: none;
-    padding: 10px;
-    width: 75px;
-    position: fixed;
-    right: 0;
-    height: 100vh;
-}
-
-
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #111111;
+  padding: 1rem;
 }
 
 .xp {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    row-gap: 15px; 
-    padding: 1rem;
-    height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 15px;
+  padding: 1rem;
+  padding-bottom: 10rem;
+  height: 550px;
+  align-items: center;
 }
 
 .xp > :nth-child(1) {
-    grid-column: 1;
-    grid-row: 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .xp > :nth-child(2) {
@@ -84,31 +68,38 @@ ul li a:hover {
   grid-column: 2;
   grid-row: 1 / -1;
   width: 700px;
-  height: 500px;
+  height: 400px;
   align-content: center;
-  margin-right: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .xp > :nth-child(3) video {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 8px;
+  width: 120%;
+  object-fit: scale-down;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 5px ridge white;
 }
 
 .xp > :nth-child(3) img {
-    width: 100%;
-    object-fit: scale-down;
-    border-radius: 8px;
+  width: 100%;
+  object-fit: scale-down;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 5px ridge white;
 }
 
 .description {
-    width: 70%;
+  width: 70%;
+}
+
+#intro {
+  padding-bottom: 1rem;
 }
 
 #bcca {
-    width: 90%;
+  width: 90%;
+  padding: 1rem;
 }
-/* .content-pane { */
-    /* display: block; */
-    /* padding: 1rem; */
-/* } */
